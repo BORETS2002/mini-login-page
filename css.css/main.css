@@ -1,0 +1,256 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.12,
+* Autoprefixer: v10.4.4
+* Browsers: last 4 version
+*/
+
+@font-face {
+  font-family: "Actor";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/actor-v17-latin-regular.woff2") format("woff2"),
+    url("/fonts/actor-v17-latin-regular.woff") format("woff");
+}
+body {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.boss {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.section-main {
+  margin: 70px 0;
+}
+.container-yellow {
+  width: 276px;
+  margin: 0 auto;
+  padding: 0px;
+  padding-top: 87px;
+  padding-bottom: 67px;
+  background: #ffd500;
+  border-radius: 21.25px 0px 0px 21.25px;
+}
+.box-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.box-text::before {
+  display: block;
+  width: 129px;
+  height: 119px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 57px;
+  content: "";
+  background-image: url("/img/Page\ 1.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.Let’s {
+  font-family: "Actor";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  margin: 0;
+  margin-bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  text-align: center;
+  color: #383838;
+}
+.box-Itshould {
+  width: 170px;
+}
+.Itshould {
+  font-family: "Actor";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 14px;
+  margin: 0;
+  margin-bottom: 38px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  color: #383838;
+}
+.icon-href {
+  margin-right: 122px;
+  margin-left: 122px;
+}
+.container-white {
+  padding: 30px 73px;
+  margin-right: auto;
+  margin-left: auto;
+  background: #fff;
+  border-radius: 2.64604px;
+}
+.form-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+.general {
+  width: 191px;
+  outline: none;
+  margin-left: 27px;
+  padding: 10px 0 10px 10px;
+  background: #f5f8f94d;
+  border: 1px solid #cad7dd;
+  caret-color: #4a90e2;
+  border: none;
+  border-radius: 3px;
+}
+.name-label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-family: "Actor";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 12px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #373d40;
+}
+.radio-box {
+  width: 277px;
+  margin-top: 17px;
+  margin-bottom: 17px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.Gender {
+  font-family: "Actor";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 9px;
+  margin: 0;
+  color: #373d40;
+}
+
+.name-radio {
+  margin-right: 10px;
+  font-family: "Actor";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 9px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  color: #b1bfcd;
+}
+.name-label-radio {
+  margin-right: 50px;
+  font-family: "Actor";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 9px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  color: #b1bfcd;
+}
+.Date {
+  width: 52px;
+  margin: 0;
+}
+.name-label-radio-twoo {
+  font-family: "Actor";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 9px;
+  color: #373d40;
+}
+.radio-box-twoo {
+  width: 315px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.buton-CANCEL {
+  font-family: "Actor";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 9px;
+  color: #373d40;
+  margin-right: 10px;
+  padding: 9px 25px;
+  border: none;
+  background: #f5f8f9;
+  border-radius: 2.64604px;
+}
+.buton-SAVE {
+  font-family: "Actor";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 9px;
+  margin-right: 10px;
+  padding: 9px 30px;
+  color: #ffffff;
+  border: none;
+  background: #60e6c5;
+  border-radius: 2.64604px;
+}
